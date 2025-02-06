@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>CalcGoritmi - Analisi Efficienza Algoritmi</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <h1>CalcGoritmi</h1>
+      <nav>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#comparison">Comparison</a></li>
+          <li><a href="#download">Download</a></li>
+          <li><a href="#docs">Documentation</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <div class="hero-content">
+        <h2>Analisi degli Algoritmi Semplificata</h2>
+        <p>Misura, confronta e ottimizza i tuoi algoritmi con precisione</p>
+        <div class="hero-buttons">
+          <a href="#download" class="cta-button primary">Scarica Ora</a>
+          <a href="#docs" class="cta-button secondary">Documentazione</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <!-- Add a modern abstract visualization -->
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="container">
+        <h2>Caratteristiche Principali</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" y1="20" x2="12" y2="10"/>
+                    <line x1="18" y1="20" x2="18" y2="4"/>
+                    <line x1="6" y1="20" x2="6" y2="16"/>
+                </svg>
+            </div>
+            <h3>Algoritmi di Ordinamento</h3>
+            <ul>
+              <li>Bubble Sort</li>
+              <li>Insertion Sort</li>
+              <li>Selection Sort</li>
+              <li>Merge Sort</li>
+              <li>Quick Sort</li>
+            </ul>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"/>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                </svg>
+            </div>
+            <h3>Algoritmi di Ricerca</h3>
+            <ul>
+              <li>Linear Search</li>
+              <li>Binary Search</li>
+            </ul>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2v4"/>
+                    <path d="M12 18v4"/>
+                    <path d="M4.93 4.93l2.83 2.83"/>
+                    <path d="M16.24 16.24l2.83 2.83"/>
+                    <path d="M2 12h4"/>
+                    <path d="M18 12h4"/>
+                    <path d="M4.93 19.07l2.83-2.83"/>
+                    <path d="M16.24 7.76l2.83-2.83"/>
+                </svg>
+            </div>
+            <h3>Performance Analysis</h3>
+            <ul>
+              <li>Tempo di Esecuzione</li>
+              <li>Analisi della Complessità</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <section id="comparison">
+            <div class="container">
+              <h2>Confronto Algoritmi</h2>
+              <div class="comparison-table">
+                  <table>
+                      <thead>
+                          <tr>
+                              <th>Algoritmo</th>
+                              <th>Caso Migliore</th>
+                              <th>Caso Medio</th>
+                              <th>Caso Peggiore</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <!-- Sorting Algorithms -->
+                          <tr>
+                              <td>Bubble Sort</td>
+                              <td>O(n)</td>
+                              <td>O(n²)</td>
+                              <td>O(n²)</td>
+                          </tr>
+                          <tr>
+                              <td>Insertion Sort</td>
+                              <td>O(n)</td>
+                              <td>O(n²)</td>
+                              <td>O(n²)</td>
+                          </tr>
+                          <tr>
+                              <td>Selection Sort</td>
+                              <td>O(n²)</td>
+                              <td>O(n²)</td>
+                              <td>O(n²)</td>
+                          </tr>
+                          <tr>
+                              <td>Merge Sort</td>
+                              <td>O(n log n)</td>
+                              <td>O(n log n)</td>
+                              <td>O(n log n)</td>
+                          </tr>
+                          <tr>
+                              <td>Quick Sort</td>
+                              <td>O(n log n)</td>
+                              <td>O(n log n)</td>
+                              <td>O(n²)</td>
+                          </tr>
+                          <!-- Search Algorithms -->
+                          <tr>
+                              <td>Linear Search</td>
+                              <td>O(1)</td>
+                              <td>O(n)</td>
+                              <td>O(n)</td>
+                          </tr>
+                          <tr>
+                              <td>Binary Search</td>
+                              <td>O(1)</td>
+                              <td>O(log n)</td>
+                              <td>O(log n)</td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+            </div>
+          </section>
+
+    <section id="stats">
+      <div class="container">
+        <h2>Statistiche Prestazionali</h2>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-number">O(n log n)</span>
+            <p>Complessità Media</p>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">100ms</span>
+            <p>Tempo Medio</p>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">99.9%</span>
+            <p>Precisione</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="download">
+      <div class="container">
+        <h2>Download CalcGoritmi</h2>
+        <div class="download-options">
+          <div class="download-card">
+            <div class="platform-icon">
+              <i class="fab fa-windows"></i>
+            </div>
+            <h3 style="color: black;">Windows</h3>
+            <p style="color: black;">Richiede Java Runtime</p>
+            <a href="downloads/CalcGoritmi.exe" class="download-button">
+              <span class="download-icon">⬇️</span>
+              Download .exe
+            </a>
+            <span class="file-size">9.0 MB</span>
+          </div>
+          <div class="download-card">
+            <div class="platform-icon">
+              <i class="fab fa-java"></i>
+            </div>
+            <h3 style="color: black;">Cross-Platform</h3>
+            <p style="color: black;">Richiede Java Runtime</p>
+            <a href="downloads/CalcGoritmi.jar" class="download-button">
+              <span class="download-icon">⬇️</span>
+              Download .jar
+            </a>
+            <span class="file-size">8.9 MB</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="docs">
+      <div class="container">
+        <br /><br /><br /><br />
+        <h2>Documentation</h2>
+        <div class="docs-grid">
+          <div class="doc-card">
+            <h3>Getting Started</h3>
+            <ol>
+              <li>
+                Scarica la versione per il tuo sistema operativo (.exe per
+                Windows, .jar per altri sistemi)
+              </li>
+              <li>Assicurati di avere una JDK superiore o uguale alla 23</li>
+              <li>Esegui il programma</li>
+              <li>Inserisci il numeri separati dagli spazi (es. 5 2 8 1 9)</li>
+              <li>
+                Scegli un algoritmo di ordinamento (Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort) 
+              </li>
+              <li>Scegli un algoritmo di ricerca (Linear Search, Binary Search)</li>
+              <li>Inserisci il numero che vuoi cercare</li>
+              <li>Visualizza il risultato e il tempo di esecuzione</li>
+            </ol>
+          </div>
+          <div class="doc-card">
+            <h3>Supported Algorithms</h3>
+            <div class="algorithm-list">
+              <div class="algo-type">
+                <h4>Ordinamento</h4>
+                <ul>
+                  <li>Bubble Sort</li>
+                  <li>Insertion Sort</li>
+                  <li>Selection Sort</li>
+                  <li>Merge Sort</li>
+                  <li>Quick Sort</li>
+                </ul>
+              </div>
+              <div class="algo-type">
+                <h4>Ricerca</h4>
+                <ul>
+                  <li>Linear Search</li>
+                  <li>Binary Search</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        CalcGoritmi è stato creato per un progetto scolastico. Può essere utile per comprendere l'efficienza degli algoritmi e confrontarli tra loro.
+      </p>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+            <a href="https://edoardobie.github.io/Edoardo-Biestro/" style="text-decoration: none; color: white;">Edoardo Biestro</a>
+          <p>&copy; 2025 CalcGoritmi. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="#docs">Documentation</a>
+            <a href="https://github.com/EdoardoBie/CalcGoritmi">GitHub</a>
+          </div>
+        </div>
+        <div class="legal-links">
+            <a href="#" id="privacy-policy-btn">Privacy Policy</a>
+            <a href="#" id="cookie-policy-btn">Cookie Policy</a>
+            <a href="#" id="terms-btn">Termini e Condizioni</a>
+        </div>
+      </div>
+    </footer>
+
+    <div id="privacy-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Privacy Policy</h2>
+            <div class="policy-content">
+                <h3>1. Raccolta dei Dati</h3>
+                <p>CalcGoritmi non raccoglie dati personali degli utenti. Il software funziona localmente sul dispositivo dell'utente.</p>
+                
+                <h3>2. Utilizzo dei Dati</h3>
+                <p>I numeri inseriti per l'analisi degli algoritmi vengono utilizzati esclusivamente per le operazioni di ordinamento e ricerca, e non vengono memorizzati o trasmessi.</p>
+                
+                <h3>3. Contatti</h3>
+                <p>Per qualsiasi domanda riguardante la privacy, contattare: edobi@outlook.it</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="cookie-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Cookie Policy</h2>
+            <div class="policy-content">
+                <h3>Utilizzo dei Cookie</h3>
+                <p>Questo sito utilizza solo cookie tecnici essenziali per il funzionamento del sito. Non vengono utilizzati cookie di profilazione o di terze parti.</p>
+                
+                <h3>Cookie Tecnici</h3>
+                <p>I cookie tecnici sono necessari per il corretto funzionamento del sito. Questi cookie non raccolgono informazioni personali.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="terms-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Termini e Condizioni</h2>
+            <div class="policy-content">
+                <h3>1. Licenza d'Uso</h3>
+                <p>CalcGoritmi è distribuito gratuitamente per uso personale e didattico.</p>
+                
+                <h3>2. Limitazioni di Responsabilità</h3>
+                <p>Il software viene fornito "così com'è", senza garanzie di alcun tipo.</p>
+                
+                <h3>3. Modifiche</h3>
+                <p>Ci riserviamo il diritto di modificare questi termini in qualsiasi momento.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="cookie-consent" class="cookie-banner">
+        <p>Questo sito utilizza cookie tecnici necessari al funzionamento del sito. 
+           <a href="#" id="cookie-policy-link">Maggiori informazioni</a>
+        </p>
+        <button id="accept-cookies">Accetta</button>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
